@@ -3,7 +3,7 @@ h1{
   text-shadow: 0 0 3px #FF0000;
 }
 body {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBgwjhjYu6tRo6XAxwLsVo-qB57-pA5IE1bQRWrA_RTHsYfoZXIQ);
+background-image: url();
   font-family: serif;
   font-weight: lighter;
   font-style: italic;
@@ -20,4 +20,17 @@ body {
 h3{
   text-decoration: underline;
   text-shadow: 0 0 3px #FF0000;
+}
+#dice {
+  float: left;
+  width:32px;
+  background: #f5f5f5;
+  border: #999 1px solid;
+  padding: 10px;
+  font-size: 24px;
+  text-align: centre;
+  margin: 5px;
+}
+h2 {
+  display: inline-block
 }
