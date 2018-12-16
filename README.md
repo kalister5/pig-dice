@@ -51,7 +51,7 @@ https://kalister5.github.io/pig-dice/
 ## Behavior Driven Development
 
 |Behavior|input|output|
-|-----|------|
+|--------|-----|------|
 |Player 1 inputs name and Player 2 inputs name, and clicks start button|Player 1: Abdillahi / Player 2: Kalister / Click START|Goes to game console|
 |Player 1 clicks ROLL button|Click ROLL button|Dice rolls and number is generated|
 
