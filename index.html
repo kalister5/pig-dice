@@ -7,6 +7,7 @@
   <title>Roll The Dice</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -40,11 +41,13 @@
 
       <div class="col-md-6">
         <h2>Player 1: <span id="player1Name"><span></h2>
-        <button id="player1-roll" class="btn btn-danger">Roll</button>
+        <button onclick="rollDiceb()" id="player1-roll" class="btn btn-danger">Roll</button>
+        <h1 id="p1points"></h1>
         <button id="player1-roll" class="btn btn-danger">Hold</button><br>
 
         <h2>Player 2: <span id="player2Name"><span></h2>
-        <button id="player2-roll" class="btn btn-danger">Roll</button>
+        <button onclick="rollDiceb()" id="player2-roll" class="btn btn-danger">Roll</button>
+        <h1 id="p2points"></h1>
         <button id="player2-roll" class="btn btn-danger">Hold</button><br>
 
         <button id="endGame">END GAME</button>
